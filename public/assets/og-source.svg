@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 320) rotate(90) scale(340)">
+      <stop stop-color="#E62429" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#E62429" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E62429"/>
+      <stop offset="1" stop-color="#E62429" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#08090D"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <ellipse cx="920" cy="320" rx="420" ry="380" fill="url(#glow)"/>
+
+  <g stroke="#FFFFFF" stroke-opacity="0.12" fill="none">
+    <path d="M790 630C790 490 840 390 920 320"/>
+    <path d="M900 630C900 500 880 420 920 320"/>
+    <path d="M1010 630C1010 520 960 410 920 320"/>
+    <path d="M1120 630C1120 540 1000 440 920 320"/>
+    <path d="M780 120C860 210 900 260 920 320"/>
+    <path d="M1200 180C1080 220 980 260 920 320"/>
+  </g>
+  <g stroke="#FFFFFF" stroke-opacity="0.1" fill="none">
+    <path d="M1200 440C1060 420 990 380 920 320"/>
+    <path d="M1200 540C1050 510 980 420 920 320"/>
+    <path d="M800 60C880 180 900 250 920 320"/>
+    <path d="M1030 40C980 170 950 250 920 320"/>
+  </g>
+
+  <g transform="translate(900 300)">
+    <g stroke="#F5F5F5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M-52-30-96-55-124-98"/>
+      <path d="M-58-10-110-14-140 18"/>
+      <path d="M-52 12-104 44-124 94"/>
+      <path d="M-40 30-66 88-82 132"/>
+      <path d="M52-30 96-55 124-98"/>
+      <path d="M58-10 110-14 140 18"/>
+      <path d="M52 12 104 44 124 94"/>
+      <path d="M40 30 66 88 82 132"/>
+    </g>
+    <path d="M0-82 40 0 0 92-40 0Z" fill="#E62429"/>
+    <path d="M0-46 18 0 0 44-18 0Z" fill="#08090D"/>
+  </g>
+
+  <g font-family="Space Grotesk, Arial, sans-serif">
+    <text x="72" y="92" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="15" letter-spacing="6">PORTFOLIO / 2026</text>
+    <text x="70" y="252" fill="#F5F5F5" font-size="124" font-weight="600" letter-spacing="-6">DEVANSH</text>
+    <text x="72" y="330" fill="none" stroke="#F5F5F5" stroke-opacity="0.45" font-size="64" font-weight="500" letter-spacing="-2">BEYOND THE CODE.</text>
+  </g>
+  <rect x="72" y="374" width="320" height="2" fill="url(#line)"/>
+  <text x="72" y="428" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="3.2">FULL-STACK DEVELOPER</text>
+  <text x="72" y="456" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="3.2">AI ENTHUSIAST</text>
+  <text x="72" y="556" fill="#E62429" font-family="JetBrains Mono, Consolas, monospace" font-size="13" letter-spacing="2.4">BUILDING WHAT&apos;S NEXT.</text>
+</svg>

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0D13"/>
+      <stop offset="1" stop-color="#08090D"/>
+    </linearGradient>
+    <linearGradient id="bar4" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#E62429"/>
+      <stop offset="1" stop-color="#941B24" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="wave4" x1="72" y1="0" x2="1128" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#941B24" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#E62429"/>
+      <stop offset="1" stop-color="#941B24" stop-opacity="0.15"/>
+    </linearGradient>
+    <pattern id="grid4" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="frame4"><rect x="40" y="40" width="1120" height="720" rx="20"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg4)"/>
+  <g clip-path="url(#frame4)">
+    <rect x="40" y="40" width="1120" height="720" fill="#0C0E15"/>
+    <rect x="40" y="40" width="1120" height="60" fill="#11131A"/>
+    <circle cx="72" cy="70" r="12" fill="#E62429"/>
+    <path d="M67 65C72 63 78 65 81 69M67 70C72 68 76 69 79 72M68 75C71 74 74 75 76 77" stroke="#08090D" stroke-width="2" stroke-linecap="round"/>
+    <text x="96" y="75" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="13" font-weight="600">Spotify Analytics</text>
+    <g fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.6">
+      <text x="860" y="74">OVERVIEW</text>
+      <text x="946" y="74">ARTISTS</text>
+      <text x="1022" y="74">MARKETS</text>
+      <text x="1096" y="74">DATA</text>
+    </g>
+
+    <g>
+      <text x="72" y="152" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="2.4">GLOBAL STREAMING INDEX / 01</text>
+      <text x="72" y="206" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="40" font-weight="600" letter-spacing="-1">Who owns the stream?</text>
+      <text x="72" y="234" fill="#9296A1" font-family="Inter, Arial, sans-serif" font-size="12">Aggregating global listening data to surface the top artists.</text>
+    </g>
+
+    <g>
+      <rect x="72" y="264" width="404" height="44" rx="10" fill="#FFFFFF" fill-opacity="0.03" stroke="#FFFFFF" stroke-opacity="0.07"/>
+      <text x="90" y="291" fill="#F5F5F5" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="1.6">TOP 5 · MOST STREAMED</text>
+      <rect x="420" y="276" width="40" height="20" rx="10" fill="#E62429" fill-opacity="0.18"/>
+      <text x="440" y="290" fill="#E62429" font-family="JetBrains Mono, Consolas, monospace" font-size="7" letter-spacing="1" text-anchor="middle">ALL</text>
+    </g>
+
+    <rect x="72" y="332" width="692" height="326" rx="16" fill="#10121A" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <path d="M72 332H764V658H72Z" fill="url(#grid4)" opacity="0.5"/>
+    <g stroke="#FFFFFF" stroke-opacity="0.06">
+      <path d="M112 400H728M112 470H728M112 540H728M112 610H728"/>
+    </g>
+
+    <g>
+      <rect x="128" y="518" width="62" height="112" rx="4" fill="url(#bar4)"/>
+      <rect x="222" y="468" width="62" height="162" rx="4" fill="url(#bar4)"/>
+      <rect x="316" y="412" width="62" height="218" rx="4" fill="url(#bar4)"/>
+      <rect x="410" y="492" width="62" height="138" rx="4" fill="url(#bar4)"/>
+      <rect x="504" y="388" width="62" height="242" rx="4" fill="url(#bar4)"/>
+      <rect x="598" y="548" width="62" height="82" rx="4" fill="url(#bar4)"/>
+    </g>
+    <g fill="#6C707C" font-family="JetBrains Mono, Consolas, monospace" font-size="7" letter-spacing="1.2">
+      <text x="142" y="648" text-anchor="middle">A01</text>
+      <text x="236" y="648" text-anchor="middle">A02</text>
+      <text x="330" y="648" text-anchor="middle">A03</text>
+      <text x="424" y="648" text-anchor="middle">A04</text>
+      <text x="518" y="648" text-anchor="middle">A05</text>
+      <text x="612" y="648" text-anchor="middle">A06</text>
+    </g>
+    <g fill="#E62429">
+      <circle cx="518" cy="378" r="3"/>
+    </g>
+    <path d="M128 560C222 540 316 470 410 498C504 526 598 560 692 556" stroke="#F5F5F5" stroke-opacity="0.2" stroke-width="1.2" stroke-dasharray="4 6"/>
+
+    <g>
+      <rect x="792" y="332" width="336" height="326" rx="16" fill="#10121A" stroke="#FFFFFF" stroke-opacity="0.06"/>
+      <text x="816" y="368" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="15">Top artists</text>
+      <text x="1104" y="368" fill="#5D616D" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.2" text-anchor="end">STREAMS</text>
+      <g>
+        <circle cx="838" cy="408" r="17" fill="#2A2D38"/>
+        <text x="870" y="405" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="11">Artist 01</text>
+        <text x="870" y="419" fill="#5D616D" font-family="JetBrains Mono, Consolas, monospace" font-size="7" letter-spacing="1">GLOBAL</text>
+        <text x="1104" y="412" fill="#E62429" font-family="JetBrains Mono, Consolas, monospace" font-size="9" text-anchor="end">01</text>
+        <rect x="816" y="432" width="230" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.05"/>
+        <rect x="816" y="432" width="206" height="3" rx="1.5" fill="#E62429"/>
+      </g>
+      <g>
+        <circle cx="838" cy="470" r="17" fill="#2A2D38"/>
+        <text x="870" y="467" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="11">Artist 02</text>
+        <text x="870" y="481" fill="#5D616D" font-family="JetBrains Mono, Consolas, monospace" font-size="7" letter-spacing="1">GLOBAL</text>
+        <text x="1104" y="474" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="9" text-anchor="end">02</text>
+        <rect x="816" y="494" width="230" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.05"/>
+        <rect x="816" y="494" width="174" height="3" rx="1.5" fill="#E62429" opacity="0.7"/>
+      </g>
+      <g>
+        <circle cx="838" cy="532" r="17" fill="#2A2D38"/>
+        <text x="870" y="529" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="11">Artist 03</text>
+        <text x="870" y="543" fill="#5D616D" font-family="JetBrains Mono, Consolas, monospace" font-size="7" letter-spacing="1">GLOBAL</text>
+        <text x="1104" y="536" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="9" text-anchor="end">03</text>
+        <rect x="816" y="556" width="230" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.05"/>
+        <rect x="816" y="556" width="142" height="3" rx="1.5" fill="#E62429" opacity="0.5"/>
+      </g>
+      <g>
+        <circle cx="838" cy="594" r="17" fill="#2A2D38"/>
+        <text x="870" y="591" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="11">Artist 04</text>
+        <text x="870" y="605" fill="#5D616D" font-family="JetBrains Mono, Consolas, monospace" font-size="7" letter-spacing="1">GLOBAL</text>
+        <text x="1104" y="598" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="9" text-anchor="end">04</text>
+        <rect x="816" y="618" width="230" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.05"/>
+        <rect x="816" y="618" width="118" height="3" rx="1.5" fill="#E62429" opacity="0.4"/>
+      </g>
+    </g>
+
+    <g>
+      <rect x="72" y="680" width="1056" height="60" rx="12" fill="#10121A" stroke="#FFFFFF" stroke-opacity="0.06"/>
+      <g fill="url(#wave4)">
+        <rect x="92" y="704" width="3" height="12" rx="1.5"/>
+        <rect x="101" y="697" width="3" height="26" rx="1.5"/>
+        <rect x="110" y="688" width="3" height="44" rx="1.5"/>
+        <rect x="119" y="701" width="3" height="18" rx="1.5"/>
+        <rect x="128" y="706" width="3" height="8" rx="1.5"/>
+        <rect x="137" y="694" width="3" height="32" rx="1.5"/>
+        <rect x="146" y="684" width="3" height="52" rx="1.5"/>
+        <rect x="155" y="698" width="3" height="24" rx="1.5"/>
+        <rect x="164" y="708" width="3" height="4" rx="1.5"/>
+        <rect x="173" y="692" width="3" height="36" rx="1.5"/>
+        <rect x="182" y="702" width="3" height="16" rx="1.5"/>
+        <rect x="191" y="686" width="3" height="48" rx="1.5"/>
+        <rect x="200" y="698" width="3" height="24" rx="1.5"/>
+        <rect x="209" y="706" width="3" height="8" rx="1.5"/>
+        <rect x="218" y="692" width="3" height="36" rx="1.5"/>
+        <rect x="227" y="700" width="3" height="20" rx="1.5"/>
+        <rect x="236" y="688" width="3" height="44" rx="1.5"/>
+        <rect x="245" y="704" width="3" height="12" rx="1.5"/>
+        <rect x="254" y="696" width="3" height="28" rx="1.5"/>
+        <rect x="263" y="706" width="3" height="8" rx="1.5"/>
+      </g>
+      <text x="1006" y="715" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="11" text-anchor="end">NOW PROCESSING</text>
+      <text x="1006" y="728" fill="#5D616D" font-family="JetBrains Mono, Consolas, monospace" font-size="7" letter-spacing="1.4" text-anchor="end">PYTHON · PANDAS · VISUALISATION</text>
+    </g>
+
+    <rect x="72" y="264" width="692" height="326" rx="16" stroke="#FFFFFF" stroke-opacity="0.03"/>
+  </g>
+  <rect x="40" y="40" width="1120" height="720" rx="20" stroke="#FFFFFF" stroke-opacity="0.12"/>
+</svg>

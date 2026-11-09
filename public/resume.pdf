@@ -1,0 +1,95 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4802 >>
+stream
+0.031 0.035 0.051 rg 0 762 595 80 re f
+0.902 0.141 0.161 rg 48 792 8 8 re f
+BT /F2 25 Tf 1 1 1 rg -0.3 Tc 66 800 Td (DEVANSH AVCHAT) Tj ET
+BT /F1 8 Tf 0.72 0.74 0.78 rg 1.8 Tc 67 779 Td (FULL-STACK DEVELOPER  /  AI ENTHUSIAST) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 48 740 Td (devanshavchat8208@gmail.com   ·   Nagpur, Maharashtra, India   ·   github.com/TheCollegeProgrammer) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 48 727 Td (linkedin.com/in/devansh-avchat   ·   portfolio: devansh-portfolio \(see README for deployment URL\)) Tj ET
+0.902 0.141 0.161 RG 1 w 48 714 m 547 714 l S
+BT /F2 8.5 Tf 0.902 0.141 0.161 rg 1.6 Tc 48 690 Td (PROFILE) Tj ET
+0.86 0.87 0.89 RG 0.6 w 48 683 m 547 683 l S
+BT /F1 8.8 Tf 0.09 0.10 0.12 rg 0 Tc 48 670 Td (Full-stack developer and AI enthusiast pursuing a B.Tech in Computer Science and Engineering) Tj ET
+BT /F1 8.8 Tf 0.09 0.10 0.12 rg 0 Tc 48 657 Td (with a specialisation in AI & Data Science at Ramdeobaba University, Nagpur. I build digital) Tj ET
+BT /F1 8.8 Tf 0.09 0.10 0.12 rg 0 Tc 48 644 Td (experiences, explore emerging technologies, and turn ambitious ideas into working products.) Tj ET
+BT /F2 8.5 Tf 0.902 0.141 0.161 rg 1.6 Tc 48 614 Td (EDUCATION) Tj ET
+0.86 0.87 0.89 RG 0.6 w 48 607 m 547 607 l S
+BT /F2 10.5 Tf 0.09 0.10 0.12 rg 0 Tc 48 594 Td (B.Tech  Computer Science and Engineering \(AI & Data Science\)) Tj ET
+BT /F1 9 Tf 0.09 0.10 0.12 rg 0 Tc 48 581 Td (Ramdeobaba University, Nagpur) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 48 568 Td (2024  2028) Tj ET
+BT /F2 8.5 Tf 0.902 0.141 0.161 rg 1.6 Tc 48 540 Td (SELECTED PROJECTS) Tj ET
+0.86 0.87 0.89 RG 0.6 w 48 533 m 547 533 l S
+BT /F2 10 Tf 0.09 0.10 0.12 rg 0 Tc 48 520 Td (TRIPZY  AI-powered travel planning platform) Tj ET
+BT /F1 7.6 Tf 0.902 0.141 0.161 rg 0.4 Tc 48 508 Td (React · TypeScript · Node.js · Express · PostgreSQL · Gemini API) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 48 496 Td (Generative itineraries, flight fare prediction, weather insights, and booking links in one travel advisory flow.) Tj ET
+BT /F2 10 Tf 0.09 0.10 0.12 rg 0 Tc 48 466 Td (RIO  Full-stack social media platform) Tj ET
+BT /F1 7.6 Tf 0.902 0.141 0.161 rg 0.4 Tc 48 454 Td (React · Node.js · Express · MongoDB · JWT · Cloudinary) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 48 442 Td (Authenticated profiles, posts, media uploads, likes, and social interactions across a complete REST API.) Tj ET
+BT /F2 10 Tf 0.09 0.10 0.12 rg 0 Tc 48 412 Td (MINIRTV  AI-powered virtual try-on research) Tj ET
+BT /F1 7.6 Tf 0.902 0.141 0.161 rg 0.4 Tc 48 400 Td (Python · Computer Vision · Deep Learning · PyTorch) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 48 388 Td (Pose and body-landmark estimation for garment alignment, with deep-learning image synthesis experiments.) Tj ET
+BT /F2 10 Tf 0.09 0.10 0.12 rg 0 Tc 48 358 Td (SPOTIFY ANALYTICS  Music data analysis) Tj ET
+BT /F1 7.6 Tf 0.902 0.141 0.161 rg 0.4 Tc 48 346 Td (Python · Pandas · PySpark · Machine Learning) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 48 334 Td (Scraped and normalised global streaming data, then aggregated and visualised artist-level listening trends.) Tj ET
+BT /F2 8.5 Tf 0.902 0.141 0.161 rg 1.6 Tc 48 288 Td (TOOLKIT) Tj ET
+0.86 0.87 0.89 RG 0.6 w 48 281 m 547 281 l S
+BT /F2 7.6 Tf 0.09 0.10 0.12 rg 1.2 Tc 48 268 Td (FRONTEND) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 132 268 Td (React · Next.js · JavaScript · TypeScript · Tailwind CSS) Tj ET
+BT /F2 7.6 Tf 0.09 0.10 0.12 rg 1.2 Tc 48 253 Td (BACKEND) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 132 253 Td (Node.js · Express.js · REST APIs) Tj ET
+BT /F2 7.6 Tf 0.09 0.10 0.12 rg 1.2 Tc 48 238 Td (PROGRAMMING) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 132 238 Td (C++ · Python · Java) Tj ET
+BT /F2 7.6 Tf 0.09 0.10 0.12 rg 1.2 Tc 48 223 Td (DATABASES) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 132 223 Td (MongoDB · PostgreSQL · MySQL) Tj ET
+BT /F2 7.6 Tf 0.09 0.10 0.12 rg 1.2 Tc 48 208 Td (AI / ML) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 132 208 Td (Pandas · NumPy · Scikit-learn · PySpark · Computer Vision) Tj ET
+BT /F2 7.6 Tf 0.09 0.10 0.12 rg 1.2 Tc 48 193 Td (TOOLS) Tj ET
+BT /F1 8.2 Tf 0.42 0.44 0.48 rg 0 Tc 132 193 Td (Git · GitHub · Docker · Power BI) Tj ET
+BT /F2 8.5 Tf 0.902 0.141 0.161 rg 1.6 Tc 48 158 Td (LINKS) Tj ET
+0.86 0.87 0.89 RG 0.6 w 48 151 m 547 151 l S
+BT /F1 8.8 Tf 0.09 0.10 0.12 rg 0 Tc 48 138 Td (GitHub: github.com/TheCollegeProgrammer    LinkedIn: linkedin.com/in/devansh-avchat    Email: devanshavchat8208@gmail.com) Tj ET
+0.902 0.141 0.161 RG 1 w 48 94 m 547 94 l S
+BT /F2 8.2 Tf 0.902 0.141 0.161 rg 1.6 Tc 48 76 Td (BEYOND THE CODE. BUILDING WHAT'S NEXT.) Tj ET
+BT /F1 7.4 Tf 0.42 0.44 0.48 rg 0 Tc 48 60 Td (Resume generated from the devansh-portfolio project. Update content in scripts/generate-resume.mjs.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Title (Devansh Avchat - Resume) /Author (Devansh Avchat) /Creator (devansh-portfolio) /Producer (devansh-portfolio) >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000267 00000 n 
+0000005120 00000 n 
+0000005217 00000 n 
+0000005319 00000 n 
+0000005424 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R /Info 8 0 R >>
+startxref
+5562
+%%EOF

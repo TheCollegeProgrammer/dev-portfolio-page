@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0D13"/>
+      <stop offset="1" stop-color="#08090D"/>
+    </linearGradient>
+    <linearGradient id="route" x1="140" y1="640" x2="640" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E62429" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#E62429"/>
+      <stop offset="1" stop-color="#FF8A65"/>
+    </linearGradient>
+    <linearGradient id="mapGlow" x1="380" y1="140" x2="620" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E62429" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#E62429" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+    <clipPath id="frame"><rect x="40" y="40" width="1120" height="720" rx="20"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <rect x="40" y="40" width="1120" height="720" fill="#0C0E15"/>
+    <rect x="40" y="40" width="1120" height="52" fill="#11131A"/>
+    <circle cx="68" cy="66" r="6" fill="#E62429"/>
+    <circle cx="88" cy="66" r="6" fill="#3A3E4B"/>
+    <circle cx="108" cy="66" r="6" fill="#3A3E4B"/>
+    <rect x="140" y="54" width="240" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.04"/>
+    <text x="156" y="70" fill="#9296A1" font-family="Inter, Arial, sans-serif" font-size="11" letter-spacing="1.5">tripzy.app / plan</text>
+
+    <text x="72" y="132" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="3">TRIPZY</text>
+    <text x="72" y="152" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="2.4">AI TRAVEL ADVISOR</text>
+
+    <rect x="720" y="104" width="416" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.035" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle cx="741" cy="121" r="5" stroke="#9296A1" stroke-width="1.4"/>
+    <path d="M745 125L750 130" stroke="#9296A1" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="760" y="125" fill="#6C707C" font-family="Inter, Arial, sans-serif" font-size="11">Find a destination, budget or vibe</text>
+
+    <rect x="64" y="176" width="640" height="560" rx="16" fill="#0A0B10" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <path d="M64 176H704V736H64Z" fill="url(#grid)"/>
+    <ellipse cx="420" cy="420" rx="280" ry="200" fill="url(#mapGlow)"/>
+
+    <g stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1.4">
+      <path d="M64 300H704M64 424H704M64 548H704M64 672H704"/>
+      <path d="M180 176V736M300 176V736M420 176V736M540 176V736M660 176V736"/>
+    </g>
+    <g stroke="#E62429" stroke-opacity="0.1" stroke-width="1">
+      <path d="M100 700L260 540L230 380L420 300L580 220L680 190"/>
+      <path d="M90 260L230 320L360 240L500 380L680 420"/>
+    </g>
+
+    <path d="M156 628C244 560 224 480 318 456C412 432 392 336 474 316C556 296 574 240 642 218" stroke="url(#route)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 12"/>
+    <circle cx="156" cy="628" r="10" fill="#E62429"/>
+    <circle cx="156" cy="628" r="22" stroke="#E62429" stroke-opacity="0.3"/>
+    <circle cx="642" cy="218" r="9" fill="#FF8A65"/>
+    <circle cx="642" cy="218" r="20" stroke="#FF8A65" stroke-opacity="0.35"/>
+    <circle cx="474" cy="316" r="6" fill="#F5F5F5"/>
+    <circle cx="318" cy="456" r="5" fill="#9296A1"/>
+
+    <g>
+      <rect x="92" y="200" width="148" height="52" rx="12" fill="#10121A" stroke="#FFFFFF" stroke-opacity="0.09"/>
+      <text x="108" y="222" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.6">DEPARTURE</text>
+      <text x="108" y="240" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="13" letter-spacing="0.5">NAGPUR, IN</text>
+    </g>
+    <g>
+      <rect x="560" y="588" width="136" height="52" rx="12" fill="#10121A" stroke="#FFFFFF" stroke-opacity="0.09"/>
+      <text x="576" y="610" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.6">WEATHER</text>
+      <text x="576" y="628" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="13" letter-spacing="0.5">28° / CLEAR</text>
+    </g>
+    <g transform="translate(544 296)">
+      <rect width="132" height="64" rx="12" fill="#13161F" stroke="#E62429" stroke-opacity="0.35"/>
+      <circle cx="20" cy="20" r="4" fill="#E62429"/>
+      <text x="32" y="23" fill="#F5F5F5" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.4">AI ROUTE</text>
+      <text x="16" y="47" fill="#9296A1" font-family="Inter, Arial, sans-serif" font-size="10">Optimised for 5 days</text>
+    </g>
+
+    <rect x="728" y="176" width="408" height="560" rx="16" fill="#11131A" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="752" y="210" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="22" font-weight="600">Your next escape</text>
+    <text x="752" y="230" fill="#9296A1" font-family="Inter, Arial, sans-serif" font-size="11">A calmer coast, a slower pace.</text>
+
+    <g fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.08">
+      <rect x="752" y="248" width="76" height="26" rx="13"/>
+      <rect x="836" y="248" width="76" height="26" rx="13"/>
+      <rect x="920" y="248" width="86" height="26" rx="13"/>
+    </g>
+    <g fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.2">
+      <text x="772" y="265">5 DAYS</text>
+      <text x="856" y="265">BALANCED</text>
+      <text x="940" y="265">COASTAL</text>
+    </g>
+
+    <g>
+      <rect x="752" y="300" width="360" height="86" rx="12" fill="#0C0E15" stroke="#FFFFFF" stroke-opacity="0.07"/>
+      <rect x="752" y="300" width="4" height="86" rx="2" fill="#E62429"/>
+      <text x="772" y="324" fill="#E62429" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.6">DAY 01</text>
+      <text x="772" y="346" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="15">Arrival &amp; old town</text>
+      <text x="772" y="366" fill="#9296A1" font-family="Inter, Arial, sans-serif" font-size="10">Check in, walk the waterfront, sunset dinner.</text>
+    </g>
+    <g>
+      <rect x="752" y="398" width="360" height="86" rx="12" fill="#0C0E15" stroke="#FFFFFF" stroke-opacity="0.07"/>
+      <rect x="752" y="398" width="4" height="86" rx="2" fill="#2A2D38"/>
+      <text x="772" y="422" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.6">DAY 02</text>
+      <text x="772" y="444" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="15">Hidden coves</text>
+      <text x="772" y="464" fill="#9296A1" font-family="Inter, Arial, sans-serif" font-size="10">A quiet route away from the usual crowds.</text>
+    </g>
+    <g>
+      <rect x="752" y="496" width="360" height="86" rx="12" fill="#0C0E15" stroke="#FFFFFF" stroke-opacity="0.07"/>
+      <rect x="752" y="496" width="4" height="86" rx="2" fill="#2A2D38"/>
+      <text x="772" y="520" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.6">DAY 03</text>
+      <text x="772" y="542" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="15">Market morning</text>
+      <text x="772" y="562" fill="#9296A1" font-family="Inter, Arial, sans-serif" font-size="10">Local food, craft stores, and a slow afternoon.</text>
+    </g>
+
+    <rect x="752" y="616" width="360" height="48" rx="24" fill="#E62429"/>
+    <text x="900" y="645" fill="#FFFFFF" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="2" text-anchor="middle">GENERATE ITINERARY</text>
+    <text x="752" y="696" fill="#5D616D" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.4">POWERED BY GENERATIVE AI + LIVE TRAVEL DATA</text>
+
+    <rect x="64" y="176" width="640" height="560" rx="16" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  </g>
+  <rect x="40" y="40" width="1120" height="720" rx="20" stroke="#FFFFFF" stroke-opacity="0.12"/>
+</svg>

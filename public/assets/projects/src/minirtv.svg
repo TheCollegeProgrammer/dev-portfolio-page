@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0D13"/>
+      <stop offset="1" stop-color="#08090D"/>
+    </linearGradient>
+    <linearGradient id="body3" x1="300" y1="240" x2="560" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A3E4B"/>
+      <stop offset="1" stop-color="#181A23"/>
+    </linearGradient>
+    <linearGradient id="garment3" x1="320" y1="300" x2="540" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E62429" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#941B24" stop-opacity="0.4"/>
+    </linearGradient>
+    <radialGradient id="scan3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(430 430) rotate(90) scale(230 230)">
+      <stop stop-color="#E62429" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#E62429" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="mesh3" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" stroke="#E62429" stroke-opacity="0.25"/>
+    </pattern>
+    <clipPath id="frame3"><rect x="40" y="40" width="1120" height="720" rx="20"/></clipPath>
+    <clipPath id="garmentClip">
+      <path d="M344 316C360 300 386 292 430 292C474 292 500 300 516 316L536 456C520 470 506 476 494 476L488 418L492 520H368L372 418L366 476C354 476 340 470 324 456Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg3)"/>
+  <g clip-path="url(#frame3)">
+    <rect x="40" y="40" width="1120" height="720" fill="#0C0E15"/>
+    <rect x="40" y="40" width="1120" height="52" fill="#11131A"/>
+    <circle cx="68" cy="66" r="6" fill="#E62429"/>
+    <circle cx="88" cy="66" r="6" fill="#3A3E4B"/>
+    <circle cx="108" cy="66" r="6" fill="#3A3E4B"/>
+    <text x="140" y="70" fill="#9296A1" font-family="Inter, Arial, sans-serif" font-size="11" letter-spacing="1.5">minirtv / virtual fitting room</text>
+
+    <text x="64" y="138" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3">MINIRTV</text>
+    <text x="64" y="158" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="2">COMPUTER VISION RESEARCH</text>
+
+    <rect x="64" y="188" width="696" height="548" rx="16" fill="#0A0B10" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <path d="M64 188H760V736H64Z" fill="url(#mesh3)" opacity="0.18"/>
+    <ellipse cx="430" cy="470" rx="260" ry="250" fill="url(#scan3)"/>
+
+    <g stroke="#FFFFFF" stroke-opacity="0.05">
+      <path d="M64 300H760M64 424H760M64 548H760M64 672H760"/>
+      <path d="M240 188V736M430 188V736M620 188V736"/>
+    </g>
+
+    <g opacity="0.9">
+      <circle cx="430" cy="248" r="34" fill="url(#body3)"/>
+      <path d="M400 282H460L470 314H390Z" fill="url(#body3)"/>
+      <path d="M372 318C340 340 326 392 322 456L346 470L360 402L350 520H430H510L500 402L514 470L538 456C534 392 520 340 488 318C470 308 390 308 372 318Z" fill="url(#body3)"/>
+      <path d="M350 520H414L410 700H362L350 520Z" fill="url(#body3)"/>
+      <path d="M446 520H510L498 700H450L446 520Z" fill="url(#body3)"/>
+      <path d="M322 456C306 478 296 516 294 556L316 562L336 480" fill="url(#body3)"/>
+      <path d="M538 456C554 478 564 516 566 556L544 562L524 480" fill="url(#body3)"/>
+      <path d="M362 700H410L408 724H356Z" fill="#181A23"/>
+      <path d="M450 700H498L504 724H452Z" fill="#181A23"/>
+    </g>
+
+    <path d="M344 316C360 300 386 292 430 292C474 292 500 300 516 316L536 456C520 470 506 476 494 476L488 418L492 520H368L372 418L366 476C354 476 340 470 324 456Z" fill="url(#garment3)" stroke="#E62429" stroke-opacity="0.7"/>
+    <g clip-path="url(#garmentClip)">
+      <rect x="320" y="290" width="220" height="240" fill="url(#mesh3)" opacity="0.7"/>
+      <path d="M344 316L494 520M516 316L368 520M430 292V520" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+    </g>
+
+    <g fill="#E62429">
+      <circle cx="430" cy="248" r="3.5"/>
+      <circle cx="390" cy="286" r="3.5"/>
+      <circle cx="470" cy="286" r="3.5"/>
+      <circle cx="322" cy="456" r="3.5"/>
+      <circle cx="538" cy="456" r="3.5"/>
+      <circle cx="294" cy="556" r="3.5"/>
+      <circle cx="566" cy="556" r="3.5"/>
+      <circle cx="362" cy="700" r="3.5"/>
+      <circle cx="498" cy="700" r="3.5"/>
+      <circle cx="430" cy="520" r="3.5"/>
+    </g>
+    <g stroke="#E62429" stroke-opacity="0.55" stroke-width="1.2">
+      <path d="M390 286L430 248L470 286L430 316Z"/>
+      <path d="M390 286L322 456L294 556"/>
+      <path d="M470 286L538 456L566 556"/>
+      <path d="M322 456L362 700M538 456L498 700"/>
+      <path d="M430 316V520M430 520L362 700M430 520L498 700"/>
+    </g>
+
+    <rect x="96" y="216" width="128" height="30" rx="15" fill="#E62429" fill-opacity="0.14" stroke="#E62429" stroke-opacity="0.4"/>
+    <circle cx="114" cy="231" r="4" fill="#E62429"/>
+    <text x="126" y="235" fill="#F5F5F5" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.5">POSE LOCKED</text>
+    <rect x="592" y="672" width="136" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="660" y="694" fill="#D9DBE1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.5" text-anchor="middle">TRY ANOTHER</text>
+
+    <rect x="784" y="188" width="344" height="548" rx="16" fill="#11131A" stroke="#FFFFFF" stroke-opacity="0.07"/>
+    <text x="808" y="224" fill="#F5F5F5" font-family="Space Grotesk, Arial, sans-serif" font-size="17" font-weight="600">Try-on controls</text>
+    <text x="808" y="244" fill="#9296A1" font-family="Inter, Arial, sans-serif" font-size="11">Garment mapped to pose landmarks.</text>
+
+    <g>
+      <text x="808" y="282" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.6">GARMENT</text>
+      <rect x="808" y="296" width="72" height="72" rx="10" fill="#0C0E15" stroke="#E62429" stroke-opacity="0.6"/>
+      <rect x="824" y="312" width="40" height="40" rx="4" fill="url(#garment3)"/>
+      <rect x="892" y="296" width="72" height="72" rx="10" fill="#0C0E15" stroke="#FFFFFF" stroke-opacity="0.08"/>
+      <rect x="906" y="314" width="44" height="36" rx="4" fill="#2A2D38"/>
+      <rect x="976" y="296" width="72" height="72" rx="10" fill="#0C0E15" stroke="#FFFFFF" stroke-opacity="0.08"/>
+      <circle cx="1012" cy="332" r="18" fill="#2A2D38"/>
+    </g>
+
+    <g>
+      <text x="808" y="410" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.6">FIT</text>
+      <rect x="808" y="424" width="55" height="28" rx="14" fill="#E62429"/>
+      <text x="835" y="442" fill="#FFFFFF" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1" text-anchor="middle">SLIM</text>
+      <rect x="871" y="424" width="62" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05"/>
+      <text x="902" y="442" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1" text-anchor="middle">RELAXED</text>
+      <rect x="941" y="424" width="55" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.05"/>
+      <text x="968" y="442" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1" text-anchor="middle">OVERSIZED</text>
+    </g>
+
+    <g>
+      <text x="808" y="496" fill="#9296A1" font-family="JetBrains Mono, Consolas, monospace" font-size="8" letter-spacing="1.6">PROCESSING</text>
+      <rect x="808" y="512" width="272" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.07"/>
+      <rect x="808" y="512" width="258" height="6" rx="3" fill="#E62429"/>
+      <text x="808" y="542" fill="#5D616D" font-family="JetBrains Mono, Consolas, monospace" font-size="7" letter-spacing="1.2">POSE ESTIMATION / GARMENT WARP / BLEND</text>
+    </g>
+
+    <g>
+      <rect x="808" y="572" width="272" height="64" rx="12" fill="#0C0E15" stroke="#FFFFFF" stroke-opacity="0.06"/>
+      <text x="824" y="596" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="11">Model confidence</text>
+      <text x="1056" y="596" fill="#E62429" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="1" text-anchor="end">HIGH</text>
+      <rect x="824" y="610" width="240" height="4" rx="2" fill="#FFFFFF" fill-opacity="0.06"/>
+      <rect x="824" y="610" width="196" height="4" rx="2" fill="#E62429" fill-opacity="0.7"/>
+    </g>
+
+    <rect x="808" y="664" width="272" height="48" rx="24" fill="#E62429"/>
+    <text x="944" y="692" fill="#FFFFFF" font-family="JetBrains Mono, Consolas, monospace" font-size="9" letter-spacing="2" text-anchor="middle">RENDER TRY-ON</text>
+
+    <rect x="64" y="188" width="696" height="548" rx="16" stroke="#FFFFFF" stroke-opacity="0.04"/>
+  </g>
+  <rect x="40" y="40" width="1120" height="720" rx="20" stroke="#FFFFFF" stroke-opacity="0.12"/>
+</svg>
