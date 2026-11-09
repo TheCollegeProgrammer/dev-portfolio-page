@@ -29,7 +29,7 @@ The site pairs an editorial, high-contrast visual system with an interactive her
 
 | Layer | Tools |
 | --- | --- |
-| Framework | Next.js 16 (App Router, Turbopack), React 19, TypeScript |
+| Framework | Next.js 16 (App Router, Turbopack), React 19, JavaScript (JSX) |
 | Styling | Tailwind CSS v4, custom design tokens and utilities |
 | Motion | GSAP, `@gsap/react`, Lenis |
 | UI utilities | `lucide-react`, `clsx`, `tailwind-merge`, `class-variance-authority` |
@@ -50,7 +50,7 @@ src/
     ui/                Buttons, headings, cards, social icons, reveals
   lib/
     data/              Projects, skills, and journey content
-    site.ts            Identity, links, navigation, education
+    site.js            Identity, links, navigation, education
 scripts/               Asset optimization and resume generation
 public/
   assets/projects/     Optimized project previews
@@ -58,7 +58,7 @@ public/
   resume.pdf           Downloadable resume
 ```
 
-All editable content lives in `src/lib/site.ts`, `src/lib/data/projects.ts`, `src/lib/data/skills.ts`, and `src/lib/data/journey.ts`.
+All editable content lives in `src/lib/site.js`, `src/lib/data/projects.js`, `src/lib/data/skills.js`, and `src/lib/data/journey.js`.
 
 ## Getting started
 
@@ -72,7 +72,6 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000).
 
 ```bash
-npm run typecheck   # TypeScript
 npm run lint        # ESLint
 npm run build       # Production build
 npm run start       # Serve the production build
@@ -95,7 +94,7 @@ Without `RESEND_API_KEY`, the API returns HTTP 503 with `EMAIL_NOT_CONFIGURED`, 
 
 ## Contact form delivery
 
-`src/app/api/contact/route.ts` validates submissions with the shared Zod schema, applies basic length limits, and sends mail through Resend when configured. To use it in production:
+`src/app/api/contact/route.js` validates submissions with the shared Zod schema, applies basic length limits, and sends mail through Resend when configured. To use it in production:
 
 1. Create a Resend account and API key.
 2. Verify your sending domain, then set `CONTACT_FROM_EMAIL` to an address on that domain.
@@ -115,8 +114,8 @@ Any Node.js host that supports Next.js 16 works as well. Run `npm run build` fol
 
 ## Replacing content and assets
 
-- Update identity, links, availability, and education in `src/lib/site.ts`.
-- Update projects in `src/lib/data/projects.ts`; keep repository and live URLs accurate.
+- Update identity, links, availability, and education in `src/lib/site.js`.
+- Update projects in `src/lib/data/projects.js`; keep repository and live URLs accurate.
 - Replace source artwork in `public/assets/projects/src/` and run `npm run assets`.
 - Edit the resume data in `scripts/generate-resume.mjs` and run `npm run resume`.
 - Replace `public/og.png` when the visual identity changes.
