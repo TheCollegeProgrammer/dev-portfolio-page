@@ -2,7 +2,7 @@
 
 A premium, spider-inspired developer portfolio for **Devansh Avchat**, a full-stack developer and AI enthusiast based in Nagpur, India.
 
-The site pairs an editorial, high-contrast visual system with an interactive hero: an original upside-down masked character hangs from a procedural web and reacts to the pointer through spring physics. Everything below the fold is built for clarity: real projects, real links, honest copy, and no invented metrics.
+The site pairs an editorial, high-contrast visual system with an interactive hero: custom upside-down Spider-Man artwork hangs from a procedural web and reacts to the pointer through spring physics. Everything below the fold is built for clarity: real projects, real links, honest copy, and no invented metrics.
 
 ![Portfolio social preview](./public/og.png)
 
@@ -15,7 +15,7 @@ The site pairs an editorial, high-contrast visual system with an interactive her
 
 ## Features
 
-- Original hanging spider character with spring physics, pointer follow, idle sway, string bending, click impulse, and an entrance drop
+- Hanging Spider-Man hero artwork with spring physics, pointer follow, idle sway, string bending, click impulse, and an entrance drop
 - Responsive hero with GSAP entrance timeline and parallax
 - Scroll-spy navigation, animated mobile menu, and Lenis smooth scrolling
 - About, selected projects, skills, journey timeline, and contact sections
@@ -44,7 +44,7 @@ src/
   app/                 App Router pages, metadata routes, API route
   components/
     art/               Procedural webs and decorative SVGs
-    hero/              Spider character and spring-physics scene
+    hero/              Spider-Man artwork, spring-physics scene, and helpers
     layout/            Navbar, footer, smooth scroll provider
     sections/          Hero, about, projects, skills, journey, contact
     ui/                Buttons, headings, cards, social icons, reveals
@@ -117,6 +117,7 @@ Any Node.js host that supports Next.js 16 works as well. Run `npm run build` fol
 - Update identity, links, availability, and education in `src/lib/site.js`.
 - Update projects in `src/lib/data/projects.js`; keep repository and live URLs accurate.
 - Replace source artwork in `public/assets/projects/src/` and run `npm run assets`.
+- Replace the hero artwork at `src/image/spiderman.png` with an image you have the rights to use.
 - Edit the resume data in `scripts/generate-resume.mjs` and run `npm run resume`.
 - Replace `public/og.png` when the visual identity changes.
 

@@ -1,4 +1,4 @@
-import { SpiderCharacterArt } from "./spider-character";
+import spiderman from "../../image/download.png";
 
 const spokes = Array.from({ length: 14 }, (_, index) => index);
 const rings = [90, 150, 210, 270, 330];
@@ -161,7 +161,14 @@ export function HeroSceneArt({
             onPointerDown={onSwing}
             style={{ cursor: "pointer" }}
           >
-            <SpiderCharacterArt />
+            <image
+              href={spiderman.src}
+              x="-280"
+              y="-140"
+              width="630"
+              height="630"
+              preserveAspectRatio="xMidYMin meet"
+            />
           </g>
         </g>
       </g>
